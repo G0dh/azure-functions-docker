@@ -35,7 +35,7 @@ RUN EXTENSION_BUNDLE_VERSION=1.8.1 && \
     rm -f /$EXTENSION_BUNDLE_FILENAME_V3 &&\
     find /FuncExtensionBundles/ -type f -exec chmod 644 {} \;
 
-FROM python:3.6-slim-buster
+FROM python:3.11-slim-buster
 ARG HOST_VERSION
 
 ENV LANG=C.UTF-8 \
