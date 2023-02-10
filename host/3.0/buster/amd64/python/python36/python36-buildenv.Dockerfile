@@ -1,4 +1,4 @@
-FROM python:3.6-slim-buster
+FROM python:3.12.0a4-slim-buster
 
 ENV LANG=C.UTF-8 \
     ACCEPT_EULA=Y \
